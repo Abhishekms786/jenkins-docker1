@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "abhishekms2005/my-python-app"
-        DOCKERHUB_CREDENTIALS = "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"
+        DOCKERHUB_CREDENTIALS = "dockerhub-creds"
     }
 
     stages {
